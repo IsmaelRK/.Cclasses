@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 
     int l, c, A[3][3], soma = 0;
 

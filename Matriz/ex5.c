@@ -27,7 +27,12 @@ main(){
         for(j=0; j < 10; j++){
 
             if(i > j){
-                produto = m[i][j] * 2;
+                if(j < 9){
+                    produto += m[i][j] * m[i+1][j+1];
+                }
+                else{
+                    
+                }
                 printf("\n Produto: %d", produto);
             }
 
