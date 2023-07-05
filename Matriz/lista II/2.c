@@ -2,9 +2,8 @@
 
 main(){
 
-    int m[5][5], m2[5][5], infer[10], supr[10], dp[5];
+    int m[5][5], m2[5][5], infer, supr;
     int i, j;
-    int cont1 = 0, cont2 = 0, cont3 = 0;
 
     for (i = 0; i < 5; i++){
         for (j = 0; j < 5; j++){
@@ -17,44 +16,15 @@ main(){
         for (j = 0; j < 5; j++){
 
             if (i < j){
-                supr[cont1] = m[i][j];
-                cont1++;
+                m2[i][j] = m[j][i];
             }
 
             if (i > j){
-                infer[cont2] = m[i][j];
-                cont2++;
+                m2[i][j] = m[j][i]; 
             }
 
             if (i == j){
-                dp[cont3] = m[i][j];
-                cont3++;
-            }
-        }
-    }
-
-
-    cont1 = 0;
-    cont2 = 0;
-    cont3 = 0;
-
-
-    for (i = 0; i < 5; i++){
-        for (j = 0; j < 5; j++){
-
-            if (i < j){
-                m2[i][j] = infer[cont1];
-                cont1++;
-            }
-
-            if (i > j){
-                m2[i][j] = supr[cont2];
-                cont2++;
-            }
-
-            if (i == j){
-                m2[i][j] = dp[cont3];
-                cont3++;
+                m2[i][j] = m[i][j];
             }
         }
     }
