@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 
     int m[5][5], m2[5][5], infer, supr;
     int i, j;
