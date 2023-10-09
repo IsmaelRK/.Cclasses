@@ -1,0 +1,3 @@
+G:/.Cclasses/funcoes/lista2/cmake-build-debug/CMakeFiles/lista2.dir
+G:/.Cclasses/funcoes/lista2/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/.Cclasses/funcoes/lista2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\Program Files\codeblocks-20.03mingw-nosetup\MinGW
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=F:/APPS/JetBrains/Clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe
