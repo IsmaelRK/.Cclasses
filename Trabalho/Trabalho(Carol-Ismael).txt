@@ -1,0 +1,45 @@
+Trabalho de Algoritmos aplicado à Matemática
+
+{
+
+	* Calculo da hipotenusas e catetos,
+
+	* Calculo de área de figuras 2D,
+
+	* Calculo de área de figuras 3D,
+
+	* Calculo de Sin, cos tg,
+
+	* Equações de 2º completas e incompletas,
+
+	* Printar as Formulas,
+
+}
+
+Estrutura Base do Projeto <- Em resumo serão usadas funções para realização dos calculos citados, e tratamento das entradas do usuários se necessário.
+
+---->
+
+<libs>
+
+prototipos
+
+
+main(){} <-- Entrada de dados e possiveis tratamentos -> Execuções das Funções necessárias -> Resultado
+
+
+Funcionará como uma lógica de subniveis, a main especificará o tipo de operação, a função poderá especificar mais detalhes da operação e depois o cálculo da mesma.
+
+---->
+
+Usos (Podem sofrer possiveis alterações):
+
+	Sitch Case (menus)
+	Funções
+	While (Manter o programa rodando)
+	Libs Diversas
+	Ponteiros (Para retornos nas funções)
+	Strings (Para os switch cases, nas entradas dos usuários)
+	If/else/elif
+	
+	*Talvez não se faça o uso de vetores, pois os dados serão requeridos diretamente nas funções, e printados nas mesmas.
